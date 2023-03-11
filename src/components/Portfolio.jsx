@@ -50,8 +50,8 @@ const Portfolio = () => {
             Portfolio
           </p>
           <p className="py-6">
-            Check out some of my work right here! message me if you want to see
-            more that I cant post here due to academic honesty
+            Check out some of my work right here! I have plenty more I cant post here due to academic honesty, but if you would like to see more feel free to get in touch through the contact 
+            form at the bottom of the page!
           </p>
         </div>
 

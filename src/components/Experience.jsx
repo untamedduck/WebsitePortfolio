@@ -15,10 +15,11 @@ const Experience = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
+      src: jScript,
+      title: "JavaScript",
+      style: "shadow-yellow-500",
     },
+  
     {
       id: 2,
       src: css,
@@ -27,16 +28,17 @@ const Experience = () => {
     },
     {
       id: 3,
-      src: jScript,
-      title: "JavaScript",
-      style: "shadow-yellow-500",
-    },
-    {
-      id: 4,
       src: react,
       title: "React",
       style: "shadow-blue-600",
     },
+    {
+      id: 4,
+      src: CPP,
+      title: "C++",
+      style: "shadow-blue-600",
+    },
+   
     {
       id: 5,
       src: tailWind,
@@ -45,10 +47,11 @@ const Experience = () => {
     },
     {
       id: 6,
-      src: CPP,
-      title: "C++",
-      style: "shadow-blue-600",
+      src: c,
+      title: "C",
+      style: "shadow-sky-400",
     },
+   
     {
       id: 7,
       src: java,
@@ -63,29 +66,37 @@ const Experience = () => {
     },
     {
       id: 9,
-      src: c,
-      title: "C",
-      style: "shadow-sky-400",
+      src: html,
+      title: "HTML",
+      style: "shadow-orange-500",
     },
+  
     {
-        id: 10,
-        src: python,
-        title: "Python",
-        style: "shadow-yellow-500",
-      },
+      id: 10,
+      src: python,
+      title: "Python",
+      style: "shadow-orange-500",
+    },{
+      id: 11,
+      src: node,
+      title: "Node",
+      style: "shadow-green-500",
+    },
   ];
 
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Experience
           </p>
-          <p className="py-6">These are some of the technologies I've worked with</p>
+          <p className="py-6">
+            These are a few of the technologies I've worked with.
+          </p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
