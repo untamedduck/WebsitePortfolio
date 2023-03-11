@@ -2,6 +2,7 @@ import React from "react";
 import HeroImage from "../assets/heroImage.png";
 import { MdArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+import TypedHook from "./TypedHook";
 const Home = () => {
   return (
     <div

@@ -3,6 +3,8 @@ import SocialLinks from "./components/SocialLinks";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
+import Experience from "./components/Experience";
+import Contact from "./components/Contact";
 function App() {
   return (
     <div>
@@ -10,7 +12,11 @@ function App() {
       <Home />
       <About />
       <Portfolio />
-      <SocialLinks />
+      <Experience/>
+      <Contact/>
+      <SocialLinks/>
+  
+
     </div>
   );
 }

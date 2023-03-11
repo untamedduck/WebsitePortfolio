@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "react-icons": "^4.8.0",
-    "react-scroll": "^1.8.9"
+    "react-scroll": "^1.8.9",
+    "react-typed": "^1.2.0",
+    "typed.js": "^2.0.12"
   }
 }
